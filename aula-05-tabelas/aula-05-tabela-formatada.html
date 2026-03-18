@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS INTERNO -->
+    <style>
+      /* No CSS Interno precisamos de seletores para aplicar a formatação */
+      body {
+        background-color: #dadada;
+        font-family: "verdana";
+      }
+
+      td,
+      th {
+        padding: 6px;
+        line-height: 1.6;
+      }
+
+      tr:nth-child(even) {
+        background-color: #e8eef1;
+      }
+      /* Zebrando a tabela através de linhas impares */
+      tr:nth-child(odd) {
+        background-color: #c9daee;
+      }
+    </style>
+
+    <title>Tabela zebrada</title>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Tabela de clientes
+      </caption>
+      <!--css inline-->
+      <thead style="background-color: lightblue">
+        <tr>
+          <th colspan="3">Dados pessoais</th>
+          <th colspan="2">Endereço</th>
+          <th>Contato</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Profissão</th>
+          <th>Rua</th>
+          <th>Cidade</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Ana de Sousa</td>
+          <td>25</td>
+          <td>Engenharia</td>
+          <td>Avenida Carlos de Sousa</td>
+          <td>São Paulo</td>
+          <td>Anasousa@gmail.com</td>
+        </tr>
+
+        <tr>
+          <td>João Ricardo</td>
+          <td>30</td>
+          <td>Advogado</td>
+          <td>Rua das flores</td>
+          <td>Rio de janeir0</td>
+          <td>joaoricardo@gmail.com</td>
+        </tr>
+
+        <tr>
+          <td>Maria da Silva</td>
+          <td>41</td>
+          <td>Médica</td>
+          <td>Rua Projetada</td>
+          <td>Registro</td>
+          <td>maria silva@gmail.com</td>
+        </tr>
+
+        <tr>
+          <td>Rafael Pereira</td>
+          <td>29</td>
+          <td>Estudante</td>
+          <td>Avenida Joaquin Ferreira</td>
+          <td>Belo Horizonte</td>
+          <td>Rafaelpereira@gmail.com</td>
+        </tr>
+
+        <tr>
+          <td>Rodrigo Julio</td>
+          <td>33</td>
+          <td>Fisioterapeuta</td>
+          <td>Rua A</td>
+          <td>Cajati</td>
+          <td>rodrigojunior@gmail.com</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="6">Cadastrado em: 17/03/2026</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
