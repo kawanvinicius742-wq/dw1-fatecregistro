@@ -7,7 +7,13 @@
     <style>
       /* ESPAÇAR MELHOR */
       th {
-        padding: 1px;
+        padding: 20px;
+        line-height: 1.6;
+      }
+
+      td {
+        text-align: center;
+        padding: 20px;
         line-height: 1.6;
       }
     </style>
@@ -29,53 +35,64 @@
         <thead>
           <tr>
             <th>Horários</th>
-            <th>Segunda-feira</th>
-            <th>Terça-feira</th>
-            <th>Quarta-feira</th>
-            <th>Quinta-feira</th>
-            <th>Sexta-feira</th>
+            <th scope="col">Segunda-feira</th>
+            <th scope="col">Terça-feira</th>
+            <th scope="col">Quarta-feira</th>
+            <th scope="col">Quinta-feira</th>
+            <th scope="col">Sexta-feira</th>
           </tr>
         </thead>
-        <tr>
-          <td>18h30 - 19h20</td>
-          <td>Desenvolvimento Web 1</td>
-          <td>Sistemas Operacionais e Redes de Computadores</td>
-          <td>Modelagem de Banco de Dados</td>
-          <td>Modelagem de Banco de Dados</td>
-          <td>Algoritmo e Lógica de Programação</td>
-        </tr>
-        <tr>
-          <td>19h20 - 20h10</td>
-          <td>Engenharia de Software 1</td>
-          <td>Sistemas Operacionais de Redes de Computadores</td>
-          <td>Modelagem de Banco de Dados</td>
-          <td>Design Digital</td>
-          <td>Algoritmo e Lógica de Programação</td>
-        </tr>
-        <tr>
-          <td>20h10 - 21h00</td>
-          <td>Engenharia de Software 1</td>
-          <td>Desenvolvimento Web 1</td>
-          <td>Modelagem de Banco de Dados</td>
-          <td>Design DIgital</td>
-          <td>HORA TÉCNICA</td>
-        </tr>
-        <tr>
-          <td>21h20 - 22h10</td>
-          <td>Engenharia de Software 1</td>
-          <td>Desenvolvimento Web 1</td>
-          <td>Sistemas Operacionais de Redes de Computadores</td>
-          <td>Design Digital</td>
-          <td>Algoritmo e Lógica de Programação</td>
-        </tr>
-        <tr>
-          <td>22h10 - 23h00</td>
-          <td>Engenharia de Software 1</td>
-          <td>Desenvolvimento Web 1</td>
-          <td>Sistemas Operacionais de Redes de Computadores</td>
-          <td>Design Digital</td>
-          <td>Algoritmo e Lógica de Programação</td>
-        </tr>
+        <tbody>
+          <tr>
+            <th scope="row">18h30 - 19h20</th>
+            <td>Desenvolvimento Web 1</td>
+            <td>Sistemas Operacionais e Redes de Computadores</td>
+            <td>Modelagem de Banco de Dados</td>
+            <td>Modelagem de Banco de Dados</td>
+            <td>Algoritmo e Lógica de Programação</td>
+          </tr>
+          <tr>
+            <th scope="row">19h20 - 20h10</th>
+            <td>Engenharia de Software 1</td>
+            <td>Sistemas Operacionais de Redes de Computadores</td>
+            <td>Modelagem de Banco de Dados</td>
+            <td>Design Digital</td>
+            <td>Algoritmo e Lógica de Programação</td>
+          </tr>
+          <tr>
+            <th scope="row">20h10 - 21h00</th>
+            <td>Engenharia de Software 1</td>
+            <td>Desenvolvimento Web 1</td>
+            <td>Modelagem de Banco de Dados</td>
+            <td>Design DIgital</td>
+            <td>HORA TÉCNICA</td>
+          </tr>
+          <tr>
+            <th scope="row">21h00 - 21h20</th>
+            <td colspan="5">INTERVALO</td>
+          </tr>
+          <tr>
+            <th scope="row">21h20 - 22h10</th>
+            <td>Engenharia de Software 1</td>
+            <td>Desenvolvimento Web 1</td>
+            <td>Sistemas Operacionais de Redes de Computadores</td>
+            <td>Design Digital</td>
+            <td>Algoritmo e Lógica de Programação</td>
+          </tr>
+         <!-- <tr>
+            <th scope="row">22h10 - 23h00</th>
+            <td>Engenharia de Software 1</td>
+            <td>Desenvolvimento Web 1</td>
+            <td>Sistemas Operacionais de Redes de Computadores</td>
+            <td>Design Digital</td>
+            <td>Algoritmo e Lógica de Programação</td>
+          </tr> -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="6">Criado: 21/03/2026</th>
+          </tr>
+        </tfoot>
       </table>
     </main>
   </body>
