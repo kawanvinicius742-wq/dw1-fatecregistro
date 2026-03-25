@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de cadastro</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Formulário de Cadastro</h1>
+    </header>
+
+    <main>
+      <section>
+        <form action="sucesso.html" method="post">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome"> Nome: </label> <br />
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Insira seu nome completo"
+              required
+            />
+            <br />
+
+            <label for="email"> Email: </label> <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Insira seu email"
+              required
+            />
+            <br />
+
+            <label for="password"> Senha: </label> <br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Insira sua senha:"
+              required
+            />
+            <br />
+            <label for="nascimento"> Data de nascimento: </label> <br />
+            <input
+              type="date"
+              name="nascimento"
+              id="nascimento"
+              placeholder="Insira sua data de nascimento:"
+              required
+            />
+            <br />
+
+            <label for="sexo"> Sexo: </label> <br />
+            <input type="radio" name="sexo" id="masc" value="m" /> Masculino
+
+            <input type="radio" name="nascimento" id="fem" value="f" /> Feminino
+            <br />
+          </fieldset>
+          <fieldset>
+            <legend>Dados do produto:</legend>
+            <label for="quantidade">Quantidade</label> <br /><br />
+            <input
+              type="number"
+              name="quantidade"
+              id="quantidade"
+              min="1"
+              max="10"
+            />
+            <br />
+            <label for="cor">Cor</label> <br />
+            <input type="color" /> <br /><br />
+            <label for="entrega">Agendar entrega para a data</label> <br />
+            <input type="datetime-local" /> <br /><br />
+
+            <label for="frete">Selecione o frete</label><br />
+            <select name="frete" id="frete">
+              <option value="pac">PAC</option>
+              <option value="sedex">SEDEX</option>
+              <option value="sedex10">SEDEX 10</option>
+            </select>
+            <br />
+            <br />
+            <label for="observacoes">Observações</label> <br />
+            <br />
+            <textarea
+              rows="4"
+              cols="40"
+              name="observacoes"
+              id="observacoes"
+              placeholder="Escreva aqui observações sobre o produto"
+            >
+            </textarea>
+            <br />
+            <br />
+
+            <input type="checkbox" name="termos" id="termos" /> Li e aceito os
+            termos de uso da plataforma. <br /><br />
+            <a href="termos.html">
+              <button type="button">Ler os termos de uso</button> <br /><br />
+            </a>
+            <hr />
+            <br /><br />
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
