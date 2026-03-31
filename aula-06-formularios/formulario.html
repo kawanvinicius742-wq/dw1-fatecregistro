@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Cadastro de aluno DSM</h1>
+    <p>
+      Formulário para cadastro dos alunos do curso de Desenvolvimento de
+      Software Multiplataforma
+    </p>
+
+    <!-- Placeholder não pedido no exercício proposto -->
+    <form action="" method="POST">
+      <!--method="POST" por se tratar de dados pessoais-->
+      <fieldset>
+        <legend>Dados Pessoais:</legend>
+        <br />
+        <label for="nome">Nome Completo</label> <br /><br />
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Insira seu nome completo"
+          required
+        />
+        <br /><br />
+        <label for="email">E-mail</label> <br /><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Insira seu email"
+          required
+        />
+        <br /><br />
+        <label for="nascimento">Data de Nascimento</label> <br /><br />
+        <input
+          type="date"
+          name="nascimento"
+          id="nascimento"
+          placeholder="Insira sua data de nascimento:"
+          required
+        />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados Acadêmicos:</legend>
+        <br />
+
+        <label for="curso">Curso</label> <br /><br />
+
+        <!-- <input type="radio" name="curso" id="dsm" value="dsm" /> DSM <br />
+        <input type="radio" name="curso" id="ads" value="ads" /> ADS <br />
+        <input type="radio" name="curso" id="fem" value="outro" /> Outro <br /> -->
+
+        <select name="curso" id="curso">
+          <option value="dsm">DSM</option>
+          <option value="ads">ADS</option>
+          <option value="outro">OUTRO</option>
+        </select>
+
+        <br /><br />
+        <label for="periodo">Período</label> <br /><br />
+
+        <input type="radio" name="periodo" id="manha" value="manha" /> Manhã
+        <br />
+        <input type="radio" name="periodo" id="noite" value="noite" /> Noite
+        <br />
+
+        <br /><br />
+        <label for="observacoes">Observações</label> <br /><br />
+        <textarea
+          rows="4"
+          cols="40"
+          name="observacoes"
+          id="observacoes"
+          placeholder="Comentários:"
+        >
+        </textarea>
+        <br /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
