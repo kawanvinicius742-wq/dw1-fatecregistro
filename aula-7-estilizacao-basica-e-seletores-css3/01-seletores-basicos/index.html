@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seletores Básicos CSS3</title>
+    <!--Importando CSS externo-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Demonstração de Seletores Básicos</h1>
+
+      <!-- Seletor de Elemento -->
+      <p>Este parágrafo é estilizado pelo seletor de elemento (p).</p>
+      <section>
+        <p>
+          Este é um outro parágrafo, estilizado pelos seletores Section e P.
+        </p>
+      </section>
+    </header>
+    <main>
+      <!--Seletor de classe -->
+      <p class="destaque">
+        Este parágrafo está sendo estilizado pela classe "destaque".
+      </p>
+      <p class="destaque">
+        Outro parágrafo estilizado com a mesma classe "destaque"
+      </p>
+
+      <!-- Seletor de ID -->
+      <!-- div: cria uma divisão na página -->
+      <div id="unico">
+        Esta div possui um ID único, e é estilizada especificamente.
+      </div>
+
+      <section class="post">
+        <h2>Seção de exemplo</h2>
+        <p>Conteúdo da sessão.</p>
+      </section>
+
+      <!-- Agrupamento de seletores -->
+      <h3>Subtitulo 1</h3>
+      <h4>Subtitulo 2</h4>
+      <h5>Subtitulo 3</h5>
+
+      <hr />
+      <div class="observacoes">
+        <h2>Tipos de seletore básicos: </h2>
+        <ul>
+            <li>Elemento: Seleciona todos os elementos daquele tipo</li>
+            <li>Classe: Pode ser reutilizada em multiplos elementos</li>
+            <li>ID: Estiliza um elemeneto único</li>
+            <li>Agrupamento de seletores: Aplica o mesmo estilo a múltiplos seletores.</li>
+            
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
