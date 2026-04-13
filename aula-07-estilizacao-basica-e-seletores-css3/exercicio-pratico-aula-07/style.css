@@ -1,0 +1,71 @@
+h1 {
+  font-size: 16px;
+  /*altura da linha*/
+  line-height: 1.6;
+  /*Margem inferior*/
+  margin-bottom: 15px;
+  /*Espaço interno do elemento*/
+  padding: 10px;
+  color: #161717;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#subtitulo {
+  /* MARGIN SE REFERE A ESPAÇO *EXTERNO* !!! */
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.lista {
+  font-weight: bold;
+  font-style: italic;
+  background-color: #54555a;
+  padding: 20px;
+  border: 2px solid #8cc9e4;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+ul li {
+  color: rgb(243, 251, 251);
+}
+
+.habilidade {
+  padding: 20px;
+  border: 2px solid #54555a;
+}
+
+.habilidade:hover {
+  background-color: #e6f3fc;
+}
+
+h4 {
+  color: brown;
+}
+
+h4::after {
+  content: " |";
+}
+
+div p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  border: 2px solid rgb(205, 205, 227);
+  padding: 5px;
+}
+
+.rodape {
+  color: beige;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #0b0b0b;
+  padding: 30px;
+  border: 2px solid #8cc9e4;
+  border-radius: 8px;
+}
+
+footer p {
+  color: aquamarine;
+}
